@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tValor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduce PRIMER valor"/>
+    <EditText
+        android:id="@+id/valor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/tValor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduce SEGUNDO valor"/>
+    <EditText
+        android:id="@+id/valor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUMAR"/>
+    <TextView
+        android:id="@+id/tResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La suma es: "/>
+
+</LinearLayout>
